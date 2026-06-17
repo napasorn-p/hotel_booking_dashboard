@@ -1,6 +1,9 @@
 # Data files (too large for git)
-data/raw/
 data/processed/
+
+# allow raw data folder but track csv inside
+!data/raw/
+!data/raw/*.csv
 
 # Python cache
 __pycache__/
